@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="mystyle.css" type="text/css" rel="stylesheet">
+    <style>
+        body {
+            background: url('sparkle.gif');
+            color: #5a4b81;
+            margin: 0;
+            padding: 0;
+        }
+ 
+
+        .header h1 {
+            font-size: 36px;
+            color: rgb(249, 73, 137);
+            margin: 10px 0;
+        }
+
+
+        .clock, .count {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .navbarr {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ffced8, #a8cf7f);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  border: 3px solid #ff9dbd;
+  margin: 20px auto;
+  width: 60%;
+  height: auto;
+  gap: 15px; /* Even spacing between buttons */
+}
+
+.nav-btn {
+  background-color: #97ba74;
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+    width: 60%;
+    font-family: JasmineUPC;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f664a3;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p {
+  color: rgb(124, 31, 71);
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: #a83673;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+        marquee {
+            font-size: 18px;
+            color: #487742;
+            font-weight: bold;
+        }
+
+        form {
+            background: #97ba74;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 30%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            font-size: 18px;
+            color: #fec7de;
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        form input[type="submit"] {
+            background: #759357;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form input[type="submit"]:hover {
+            background: #ffb8f5;
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+
+        #error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .footer {
+    position: sticky;
+    background: linear-gradient(to bottom right, #ffced8, #a8cf7f);
+    color: rgb(124, 31,71);
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    width: 90%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body> 
+
+    <!-- Header Section -->
+    <div class="header">
+        <a href="leeya.jpg"> <img src="leeya.jpg" alt="My Image" class="header-img"></a> 
+        <h1><b>HELLO FELLOWS! WELCOME TO MY WEBSITE</b></h1>
+    </div>
+
+    <!-- CLOCK -->
+    <div class="clock">
+        <iframe src="https://free.timeanddate.com/clock/i9mmk4y6/n5085/fn4/fs20/fcf664a3/tcfecade/pccd628b/ftb/bas3/bacf664a3/tt0/tw0/tb4" frameborder="0" width="181" height="55"></iframe>  
+    </div>
+
+
+    <!-- AUDIO -->
+     <br><audio controls autoplay class="nav-btn">
+     <source src="keshi.mp3" type="audio/mpeg">
+     Your browser does not support the audio element.
+   </audio> 
+
+   
+
+     <!-- Navigation Bar -->
+    <div class="navbarr">
+     <div class="p" text-align="center">
+
+        <marquee width="70%" style="padding: 10px 10px;" bgcolor="#f4e4f4" direction="left" scrolldelay="100"><abbr title="hi">Hello!</abbr> Step into the world of my very first webpage<br></marquee> 
+
+            <p>I’m<sup><b> Nur Aleeya Syarina Binti Nor Afzanizam.</b></sup></p>
+            <p>I’m currently on an exciting journey pursuing my Diploma in Information Management at UiTM Segamat, where every day is a step closer to my dreams!</p> 
+            <p>This is my very first website, and I couldn’t be more ecstatic to welcome you here! It’s my little corner of the internet, crafted with care and a whole lot of enthusiasm.</p>
+            <p>What can you explore here?</p>
+            <p>Dive into stories about my life, cherished moments with family and friends, a gallery filled with memories, and so much more!</p>
+            <pre><i>Ready to get to know me better?</i></pre>
+             <p>Before we begin, simply enter your nickname and hit the ‘SUBMIT’ button. Let the adventure begin<sub> I hope you enjoy exploring! <sub></p>
+        </div>
+    </div>
+
+    <!-- Form Section -->
+    <form id="nameForm" action="biodata.html" onsubmit="return validateForm()">
+        <label for="fname">Your nickname:</label>
+        <input type="text" id="fname" name="fname" required>
+        <input type="submit" value="SUBMIT">
+        <div id="error-message" class="error" style="display: none;">
+            You must insert your name.
+        </div>
+    </form>
+    </form>
+
+     <!-- COUNTER --> 
+    <div class="count">
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1260173/t/11"></script>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        This design was developed by ALEEYA SYARINA
+    </div>
+
+</body>
+</html>
